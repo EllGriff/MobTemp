@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <!-- Custom Style Sheets-->
+        <link rel="stylesheet" href="themes/myshittheme.css" />
+        <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+        <!-- Custom Style Sheets End-->
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" /> 
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> 
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> 
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <title>HomePage</title>
+    </head>
+    <body>
+        <div data-role="page" id="pageone">
+
+            <div data-role="header" data-position="fixed">
+                    <p>Hello Nibbas</p>
+            </div>
+            
+            <div data-role="footer" data-position="fixed">
+                <input type="button" value="Go 2" onclick="window.location.href='#pagetwo'" />
+
+            </div>
+            
+        </div>
+
+        <div data-role="page" id="pagetwo">
+            <div data-role="header" data-position="fixed">
+                    <p>Hello 2</p>
+            </div>
+            
+            <div data-role="footer" data-position="fixed">
+                    <input type="button" value="Go 1" onclick="window.location.href='#pageone'" />
+            </div>
+        </div>
+
+
+
+
+
+
+
+       
+    </body>
+</html>

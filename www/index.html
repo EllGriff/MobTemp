@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <!-- Custom Style Sheets - https://themeroller.jquerymobile.com -->
+        <link rel="stylesheet" href="themes/myshittheme.css" />
+        <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+        <!-- Custom Style Sheets End-->
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" /> 
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> 
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> 
+        
+        <!--Cordova Generated Files-->
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <!--Cordove Files END-->
+
+        <title>Template Application</title>
+    </head>
+    <body>
+        <!--Page One-->
+        <div data-role="page" id="pageone">
+
+            <div data-role="header" data-position="fixed">
+                    <p>Header Text</p>
+            </div>
+            
+            <div data-role="footer" data-position="fixed">
+                <input type="button" value="Page 2" onclick="window.location.href='#pagetwo'" />
+
+            </div>
+            
+        </div>
+        <!--Page One End-->
+
+
+        <!--Page Two-->
+        <div data-role="page" id="pagetwo">
+            <div data-role="header" data-position="fixed">
+                    <p>Header Text 2</p>
+            </div>
+            
+            <div data-role="footer" data-position="fixed">
+                    <input type="button" value="Page 1" onclick="window.location.href='#pageone'" />
+            </div>
+        </div>
+        <!--Page Two End-->
+
+
+
+
+
+
+
+       
+    </body>
+</html>
